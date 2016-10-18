@@ -5,7 +5,7 @@ Bitch please!
 ## How I'm using this
 
 ```shell
-$ docker run -it pcasaretto/heroku-cli bash
+$ docker run -it pcasaretto/heroku-toolbox-docker bash
 # inside the container
 $ heroku login
 # enter credentials and leave back to host
