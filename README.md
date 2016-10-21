@@ -1,22 +1,12 @@
 Need to have Ruby before installing the CLI?
 
-Bitch please!
+![Bitch please!](http://s2.quickmeme.com/img/34/34c5a5d89699a28f2486c23c5b381486b62553f3eba9ebaccf36df6306494e00.jpg)
 
-## How I'm using this
+## Usage
 
-```shell
-$ docker run -it pcasaretto/heroku-toolbox-docker bash
-# inside the container
-$ heroku login
-# enter credentials and leave back to host
-$ docker ps -a # find the id of the container we just ran
-$ docker commit <ID> heroku-cli-local
-```
-
-Then, use a function like so:
 ```
 heroku () { 
-  docker run -ti --rm heroku-cli-local heroku $@
+  docker run -ti --rm -v ~/.netrc:/root/.netrc pcasaretto/heroku-toolbox-docker heroku $@
 }
 ```
 
