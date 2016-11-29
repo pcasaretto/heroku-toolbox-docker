@@ -6,7 +6,7 @@ Need to have Ruby before installing the CLI?
 
 ```
 heroku () { 
-  docker run -ti --rm -v ~/.netrc:/root/.netrc pcasaretto/heroku-toolbox-docker heroku $@
+  docker run -ti --rm -v ~/.netrc:/root/.netrc:z pcasaretto/heroku-toolbox-docker heroku $@
 }
 ```
 
