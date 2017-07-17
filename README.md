@@ -1,3 +1,13 @@
-# Deprecated
+Need to have Ruby before installing the CLI?
 
-[Heroku CLI no longer requires Ruby!](https://blog.heroku.com/the-new-heroku-cli)
+![Bitch please!](http://s2.quickmeme.com/img/34/34c5a5d89699a28f2486c23c5b381486b62553f3eba9ebaccf36df6306494e00.jpg)
+
+## Usage
+
+```
+heroku () { 
+  docker run -ti --rm -v ~/.netrc:/root/.netrc:z pcasaretto/heroku-toolbox-docker heroku $@
+}
+```
+
+Now, enjoy your Ruby free enviroment!
