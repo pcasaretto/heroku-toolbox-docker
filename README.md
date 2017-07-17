@@ -1,4 +1,4 @@
-Need to have Ruby before installing the CLI?
+Need to have node before installing the CLI?
 
 ![Bitch please!](http://s2.quickmeme.com/img/34/34c5a5d89699a28f2486c23c5b381486b62553f3eba9ebaccf36df6306494e00.jpg)
 
@@ -10,4 +10,4 @@ heroku () {
 }
 ```
 
-Now, enjoy your Ruby free enviroment!
+Now, enjoy your node free enviroment!
